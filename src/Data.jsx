@@ -1,9 +1,9 @@
 import Project1 from './assets/project1.jpeg';
-import Project2 from './assets/project2.jpg';
+import Project2 from './assets/project2.jpeg';
 import Project3 from './assets/project3.jpeg';
 import Project4 from './assets/project4.jpeg';
-import Project5 from './assets/project5.jpg';
-import Project6 from './assets/project6.jpg';
+import Project5 from './assets/project5.png';
+import Project6 from './assets/project6.jpeg';
 
 
 import Testimonial1 from './assets/testimonial1.jpg';
@@ -55,7 +55,7 @@ export const services = [
   {
     id: 1,
     name: 'Android Development',
-    title: 'Apps Building',
+    title: 'Jetpack Compose',
     description:
       'Crafting cutting-edge Android apps tailored to your needs. From concept to deployment, I specialize in user-friendly solutions that leverage the latest tech and best practices.',
   },
@@ -93,7 +93,7 @@ export const skills = [
   {
     id: 1,
     name: 'Kotlin',
-    percentage: 85,
+    percentage: 90,
     description:
       'A modern programming language used for developing Android applications with concise syntax and enhanced performance.',
   },
@@ -101,7 +101,7 @@ export const skills = [
   {
     id: 2,
     name: 'JavaScript',
-    percentage: 75,
+    percentage: 95,
     description:
       'Skilled in JavaScript, a versatile programming language essential for creating dynamic and interactive web applications.',
   },
@@ -109,7 +109,7 @@ export const skills = [
   {
     id: 3,
     name: 'java',
-    percentage: 90,
+    percentage: 95,
     description:
       'Experienced in Java, a robust and platform-independent programming language used for building scalable enterprise applications.',
   },
@@ -125,7 +125,7 @@ export const skills = [
   {
     id: 5,
     name: 'React',
-    percentage: 70,
+    percentage: 100,
     description:
       'Skilled in React, a powerful JavaScript library for building dynamic and responsive user interfaces in web applications.',
   },
@@ -133,7 +133,7 @@ export const skills = [
   {
     id: 6,
     name: 'React Native',
-    percentage: 80,
+    percentage: 100,
     description:
       'Proficient in React Native, a framework for building cross-platform mobile applications using JavaScript and React.',
   },
@@ -141,7 +141,7 @@ export const skills = [
   {
     id: 6,
     name: 'Version Control',
-    percentage: 80,
+    percentage: 90,
     description:
       'Experienced in version control systems, particularly Git, for managing and tracking changes in code collaboratively and efficiently.',
   },
@@ -167,111 +167,111 @@ export const projects = [
   {
     id: 1,
     img: Project1,
-    category: 'Branding',
-    title: 'Zorro',
+    category: 'React Native',
+    title: 'Little Lemon',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+    "This app is developed using React Native and Firebase Authentication, providing a seamless experience for ordering a variety of delicious Indian foods.",
   },
   {
     id: 2,
     img: Project2,
-    category: 'UI UX Design',
-    title: 'Gooir',
+    category: 'React Native',
+    title: 'EV Station',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      "Electric Vehicle (EV) Station Locator app developed using React Native, you should emphasize the core functionalities and the benefits of the application in a few short sentences,"
   },
   {
     id: 3,
     img: Project3,
-    category: 'Development',
-    title: 'Explore',
+    category: 'React',
+    title: 'Google Gemini CLone',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'This project replicates the UI and functionality of the real Google Gemini search interface using React JS. The app features a beautiful search animation and integrates with the Google Gemini API for Q&A capabilities.'
   },
   {
     id: 4,
     img: Project4,
-    category: 'Photography',
-    title: 'Mozar',
+    category: 'React',
+    title: 'Portfolio',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Personal portfolio website by using react js, and advanced styling',
   },
   {
     id: 5,
     img: Project5,
-    category: 'Development',
-    title: 'Stay Fit',
+    category: 'Jetpack Compose',
+    title: 'Travel Companion',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Travel Companion app build using jetpack compose , ready to take you in your dreamland',
   },
   {
     id: 6,
     img: Project6,
-    category: 'Branding',
-    title: 'Kana',
+    category: 'Jetpack Compose',
+    title: 'Calculator',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Fully working calculator build using jetpack compose with beautiful ui',
   },
 ];
 
 export const cv = [
   {
     id: 1,
-    title: 'CoderHouse Courses',
-    subtitle: 'Backend Programming',
-    date: '2014 - 2016',
+    title: 'Meta Android Developer',
+    subtitle: 'Android Development',
+    date: '2024',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Certified meta android developer',
     category: 'education',
   },
 
   {
     id: 2,
-    title: 'Lviv National Academy of Arts',
-    subtitle: 'Faculty of Design',
-    date: '2012 - 2014',
+    title: 'Shivajiorao College',
+    subtitle: 'BE -Computer',
+    date: '2020-2024',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Bachelor in Engineering',
     category: 'education',
   },
 
   {
     id: 3,
-    title: 'IT Future',
+    title: '10th',
     subtitle: 'High School',
-    date: '2010 - 2012',
+    date: '2017-2018',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Passed 10th and 12th class',
     category: 'education',
   },
 
   {
     id: 4,
-    title: 'UI Head & Manager',
-    subtitle: 'Soft Tech Inc.',
-    date: '2020 - PRESENT',
+    title: 'Jetpack compose(Android)',
+    subtitle: 'projects',
+    date: '2022-2024',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Builded various project on jetpack compose , handling api and much more',
     category: 'experience',
   },
 
   {
     id: 5,
-    title: 'UI / UX Specialist',
-    subtitle: 'Kana Design Studio',
-    date: '2018 - 2020',
+    title: 'React NAtive',
+    subtitle: 'Projects',
+    date: '2022-2024',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Builded various project on react native',
     category: 'experience',
   },
 
   {
     id: 6,
-    title: 'Plugins Developer',
+    title: 'React jsr',
     subtitle: 'Fiverr.com',
-    date: '2016 - 2018',
+    date: '2023-2024',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Builded various project on react js with various function and beautiful ui',
     category: 'experience',
   },
 ];
