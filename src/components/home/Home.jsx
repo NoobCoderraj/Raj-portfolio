@@ -46,7 +46,7 @@ export const Home = () => {
 
           <p className="home__data home__data-two">
             <span className='text-lg'>
-              100
+              10+
             </span>
 
             <span className='text-sm'>
