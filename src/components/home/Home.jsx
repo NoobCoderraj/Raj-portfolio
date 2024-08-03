@@ -6,7 +6,7 @@ import shapeTwo from "../../assets/shape-2.png";
 import CV from "../../assets/cv.pdf"
 import './home.css'
 
-import { FaTwitter, FaBehance, FaDribbble } from "react-icons/fa";
+import { FaTwitter, FaBehance, FaGithub,FaLinkedin} from "react-icons/fa";
 
 export const Home = () => {
   return (
@@ -61,16 +61,19 @@ export const Home = () => {
 
        </div>
         <p className='home__text'>
-          Passionate Android Developer committed to continuous growth and innovation in mobile app development.
-          Skilled in crafting impactful experiences and eager to collaborate on innovative projects
+        Enthusiastic Android and React Native developer skilled in
+Java, Kotlin, and JavaScript. Experienced in building
+robust mobile applications with Firebase and Google
+Maps integration. Quick learner, ready to deliver
+innovative solutions.
         </p>
 
         <div className='home__socials'>
-          <a href='' className='home__social-link'>
-            <FaTwitter />
+          <a href='https://www.linkedin.com/in/raj-chauhan-android-devr/' className='home__social-link'>
+            <FaLinkedin/>
           </a>
-          <a href='' className='home__social-link'>
-            <FaDribbble />
+          <a href='https://github.com/NoobCoderraj' className='home__social-link'>
+            <FaGithub />
           </a>
           <a href='' className='home__social-link'>
             <FaBehance />

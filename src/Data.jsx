@@ -55,30 +55,30 @@ export const services = [
   {
     id: 1,
     name: 'Android Development',
-    title: 'Jetpack Compose',
+    title: 'Java Android Development',
     description:
-      'Crafting cutting-edge Android apps tailored to your needs. From concept to deployment, I specialize in user-friendly solutions that leverage the latest tech and best practices.',
+    'I am an experienced Android developer specializing in Java-based application development. My expertise lies in utilizing the Android SDK to create dynamic and robust mobile applications',
   },
   {
     id: 2,
-    name: ' Full Stack Developer ',
-    title: ' Front and Back-end',
+    name: ' Jetpack Compose ',
+    title: ' Kotlin Android Development',
     description:
-      'Elevate your digital presence with tailored full-stack solutions. From front to back-end, I craft engaging applications driven by user-centric design.',
+    'I am a proficient Android developer with expertise in Kotlin and Jetpack Compose, specializing in building modern and efficient mobile applications.'
   },
   {
     id: 3,
-    name: ' UI & UX ',
-    title: ' UI Designing ',
+    name: ' React Native Developer',
+    title: ' Cross Platform Application ',
     description:
-      ' Transforming ideas into captivating user experiences. With a focus on intuitive design and seamless navigation, I create visually stunning interfaces that engage and inspire. ',
+      ' I am a skilled React Native developer proficient in creating high-performance, cross-platform mobile applications using JavaScript and React.js, with expertise in integrating APIs and Firebase for robust functionality.',
   },
   {
     id: 4,
-    name: ' MERN Stack ',
-    title: ' lorem ',
+    name: ' Flutter Development ',
+    title: ' Dart Language programming ',
     description:
-      ' Proficient in the MERN stack, comprising MongoDB, Express.js, React, and Node.js, for developing full-stack web applications with a unified JavaScript-based technology stack. ',
+      ' I am an experienced Flutter developer adept at building natively compiled applications for mobile, web, and desktop from a single codebase using Dart, with a strong focus on creating visually appealing and high-performance user interfaces.',
   },
   {
     id: 5,
@@ -228,7 +228,7 @@ export const cv = [
   {
     id: 2,
     title: 'Shivajiorao College',
-    subtitle: 'BE -Computer',
+    subtitle: 'BE - Computer',
     date: '2020-2024',
     description:
       'Bachelor in Engineering',
@@ -237,9 +237,9 @@ export const cv = [
 
   {
     id: 3,
-    title: '10th',
-    subtitle: 'High School',
-    date: '2017-2018',
+    title: 'High School',
+    subtitle: '10th & 12th',
+    date: '2017-2020',
     description:
       'Passed 10th and 12th class',
     category: 'education',
@@ -257,7 +257,7 @@ export const cv = [
 
   {
     id: 5,
-    title: 'React NAtive',
+    title: 'React Native',
     subtitle: 'Projects',
     date: '2022-2024',
     description:
@@ -267,11 +267,11 @@ export const cv = [
 
   {
     id: 6,
-    title: 'React jsr',
-    subtitle: 'Fiverr.com',
+    title: 'Java Android Development',
+    subtitle: 'Projects',
     date: '2023-2024',
     description:
-      'Builded various project on react js with various function and beautiful ui',
+      'Builded various android application project using java Android development ',
     category: 'experience',
   },
 ];
@@ -280,41 +280,42 @@ export const testimonials = [
   {
     id: 1,
     img: Testimonial1,
-    name: 'Barbara Wilson',
-    author: 'CEO Company',
+    name: '',
+    author: 'Meta',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Meta Meta Android Developer Professional Certificate',
   },
   {
     id: 2,
     img: Testimonial2,
-    name: 'Charlie Smith',
-    author: 'Designer',
+    name: '',
+    author: 'Meta',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Mobile Development and JavaScript',
   },
   {
     id: 3,
     img: Testimonial3,
-    name: 'Roy Wang',
-    author: 'Manager GYM',
+    name: '',
+    author: 'Meta',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Advanced Programming in Kotlin',
   },
   {
     id: 4,
     img: Testimonial4,
-    name: 'Jennifer Smith',
-    author: 'CEO & Founder',
+    name: '',
+    author: 'Meta',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'React Native',
   },
   {
     id: 5,
     img: Testimonial5,
-    name: 'Paul Freeman',
-    author: 'Photographer',
+    name: '',
+    author: 'Meta',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Principles of UX/UI Design',
   },
+
 ];
